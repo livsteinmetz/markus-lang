@@ -2,7 +2,7 @@ import React from 'react';
 
 function Info() {
   return (
-    <div>
+    <section>
       <h2>About</h2>
       <p>
         Markus Lang is a bassist from Allentown, New Jersey. He is currently
@@ -38,7 +38,7 @@ function Info() {
         the Verbier Festival, Music Academy of the West, Domaine Forget, and
         the Wabass Institute.
       </p>
-    </div>
+    </section>
   );
 }
 

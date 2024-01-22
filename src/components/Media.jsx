@@ -4,7 +4,6 @@ import media from "./Content/copy/media.json"
 
 export default function Media() {
   return (
-    <section>
       <div id="Media">
         <h2>Media</h2>
         {media.map((p) => (
@@ -19,6 +18,5 @@ export default function Media() {
           />
         ))}
        </div>
-    </section>
   );
 }

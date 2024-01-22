@@ -64,6 +64,10 @@
     @media (max-width: $desktop) {
       flex: 1;
     }
+
+    @media (max-width: $mobile) {
+      padding: 0;
+    }
   
     a {
       &:hover {

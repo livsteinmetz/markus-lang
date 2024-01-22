@@ -2,7 +2,7 @@ import React from 'react';
 
 function Education() {
   return (
-    <div>
+    <section>
       <h2>Education</h2>
       <ul>
         <li>
@@ -18,7 +18,7 @@ function Education() {
           Bass Performance, Garrigues Scholar
         </li>
       </ul>
-    </div>
+    </section>
   );
 }
 

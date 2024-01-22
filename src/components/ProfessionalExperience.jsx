@@ -2,7 +2,6 @@ import React from 'react';
 
 function ProfessionalExperience() {
   return (
-    <div>
       <section>
         <h2>Professional Experience</h2>
         <ul>
@@ -29,7 +28,6 @@ function ProfessionalExperience() {
           {/* Add more experiences as needed */}
         </ul>
       </section>
-    </div>
   );
 }
 
