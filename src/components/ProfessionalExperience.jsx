@@ -20,12 +20,6 @@ function ProfessionalExperience() {
             organization="The Philadelphia Orchestra"
             website="https://www.philorch.org/"
           />
-          <Experience
-            title="Guest Principal Bass"
-            organization="New Jersey Symphony"
-            website="https://www.njsymphony.org/"
-          />
-          {/* Add more experiences as needed */}
         </ul>
       </section>
   );
