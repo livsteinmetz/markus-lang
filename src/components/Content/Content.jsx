@@ -6,7 +6,7 @@ export default function Content({ title, img, img2, link, body, youTube }) {
   return (
     <div id="Content">
       <a id="title" href={link} target="_blank" rel="noopener noreferrer">
-        <h4>{title}</h4>
+        <h3>{title}</h3>
       </a>
       {img ? <img className="project-img" src={img} alt={title} /> : null}
       {img2 ? <img className="project-img" src={img2} alt={title} /> : null}

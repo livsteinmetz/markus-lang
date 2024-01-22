@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div>
       <h2>Contact</h2>
-      <p>
+      <h3>
       <a
             href="mailto:markusstevenlang@gmail.com"
             target="_blank"
@@ -12,7 +12,9 @@ function Contact() {
         >
             Email
         </a>
-        {" "}
+        </h3>
+        <br/>
+        <h3>
         <a
             href="https://www.youtube.com/channel/UCjFKrtrxTGX1YPyP2YcyuWg"
             target="_blank"
@@ -20,8 +22,7 @@ function Contact() {
         >
             Youtube
         </a>
-
-        </p>
+        </h3>
     </div>
   );
 }
