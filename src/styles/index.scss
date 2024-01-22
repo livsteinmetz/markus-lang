@@ -40,6 +40,12 @@ h1 {
   text-transform: uppercase;
   font-weight: 400;
 
+  @media (max-width: $desktop) {
+    font-size: 100px;
+    line-height: 80px;
+    margin: 0;
+  }
+
   @media (max-width: $mobile) {
     font-size: 64px;
     line-height: 64px;

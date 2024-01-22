@@ -30,25 +30,27 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
     height: 100%;
+    margin-left: 10vw; /* Responsive margin using viewport units */
+
+    @media (max-width: $desktop) {
+      margin-left: auto;
+    }
+  
   }
 
   #left-container {
-    flex: 2;
+    flex: 3;
     overflow-y: auto;
     padding: 2.5vw; /* Responsive padding using viewport units */
-    margin-left: 10vw; /* Responsive margin using viewport units */
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
     text-align: left;
     color: $light-shades;
-    max-width: 650px;
 
     @media (max-width: $desktop) {
-      margin-left: auto;
       flex: 1;
     }
 
