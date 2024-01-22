@@ -1,0 +1,14 @@
+/* SCSS HEX */
+$brand: #981914;
+$dark-accent: #af87aa;
+$light-accent: #49563B;
+$light-shades: #fbf9f9; // Use this color as the background for your dark-on-light designs, or the text color of an inverted design.
+$dark-shades: #1d1e27; // Use as the text color for dark-on-light designs, or as the background for inverted designs.
+$mobile: 600px;
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"); /* Define more @font-face rules for additional fonts if needed */
+
+/* Font Variables */
+$font-header: "Oswald", sans-serif;
+$font-body: "Roboto", sans-serif;
+
