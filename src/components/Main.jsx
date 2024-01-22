@@ -27,9 +27,14 @@ export default function Main() {
                 alt="Markus Lang headshot with bass"
                 style={{ width: '100%', height: 'auto' }}
               /> */}
+                    <section>
+          <h2 style={{fontSize: "45px", lineHeight: "45px"}}>Principal Bass,<br/>
+            <a href="https://www.gso.se/en/" target="_blank" rel="noopener noreferrer">Gothenburg Symphony Orchestra</a>
+          </h2>
+      </section>
+              <Info />
               <ProfessionalExperience />
               <Education />
-              <Info />
             </section>
             <section id="media">
               <Media />

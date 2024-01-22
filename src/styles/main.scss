@@ -49,18 +49,29 @@
     flex-direction: column;
     text-align: left;
     color: $light-shades;
-
+    position: relative; /* Add this line */
+  
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 20px; /* Adjust the width of the fading effect */
+      background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)); /* Adjust the gradient as needed */
+    }
+  
     @media (max-width: $desktop) {
       flex: 1;
     }
-
+  
     a {
       &:hover {
         color: $brand;
         text-decoration: underline;
       }
     }
-
+  
     #left-scroll {
       width: 100%;
       padding: 25px;
@@ -69,6 +80,7 @@
       backdrop-filter: blur(2px);
     }
   }
+  
 
   #right-container {
     flex: 1;

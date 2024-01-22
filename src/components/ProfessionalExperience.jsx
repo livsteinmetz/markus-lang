@@ -4,15 +4,6 @@ function ProfessionalExperience() {
   return (
     <div>
       <section>
-        <h2>Current Work</h2>
-        <div>
-          <h3>Principal Bass,{" "}
-            <a href="https://www.gso.se/en/" target="_blank" rel="noopener noreferrer">Gothenburg Symphony Orchestra</a>
-          </h3>
-        </div>
-      </section>
-
-      <section>
         <h2>Professional Experience</h2>
         <ul>
           <Experience
