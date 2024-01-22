@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/markus-lang/static/css/main.7f19a9a5.css",
+    "main.css": "/markus-lang/static/css/main.b3d343fd.css",
     "main.js": "/markus-lang/static/js/main.61b109c3.js",
     "static/media/markus-lang-1.jpeg": "/markus-lang/static/media/markus-lang-1.05cf71f5d8f8568d3931.jpeg",
     "index.html": "/markus-lang/index.html",
-    "main.7f19a9a5.css.map": "/markus-lang/static/css/main.7f19a9a5.css.map",
+    "main.b3d343fd.css.map": "/markus-lang/static/css/main.b3d343fd.css.map",
     "main.61b109c3.js.map": "/markus-lang/static/js/main.61b109c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f19a9a5.css",
+    "static/css/main.b3d343fd.css",
     "static/js/main.61b109c3.js"
   ]
 }
