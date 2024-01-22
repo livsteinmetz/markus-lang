@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.900bc73c.css",
+    "main.js": "/static/js/main.82e060e4.js",
+    "static/media/markus-lang-1.jpeg": "/static/media/markus-lang-1.05cf71f5d8f8568d3931.jpeg",
+    "index.html": "/index.html",
+    "main.900bc73c.css.map": "/static/css/main.900bc73c.css.map",
+    "main.82e060e4.js.map": "/static/js/main.82e060e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.900bc73c.css",
+    "static/js/main.82e060e4.js"
+  ]
+}
