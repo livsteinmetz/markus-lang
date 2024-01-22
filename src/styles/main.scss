@@ -10,6 +10,15 @@
   background-position: center;
   background-repeat: no-repeat;
 
+  .subtitle {
+    font-size: 45px;
+    line-height: 45px;
+    @media (max-width: $mobile) {
+      font-size: 30px;
+    line-height: 30px;
+    }
+  }
+
   section {
     margin: 16px 0;
   }
@@ -35,6 +44,7 @@
 
     @media (max-width: $desktop) {
       margin-left: auto;
+      width: 100vw;
     }
   
   }
@@ -72,6 +82,7 @@
       background-color: rgba(0, 0, 0, 0.7);
       backdrop-filter: blur(5px);
       -webkit-backdrop-filter: blur(5px);
+      scroll-padding: 25px;
     }
   }
   
@@ -106,7 +117,7 @@
           align-items: flex-end;
           justify-content: flex-end;
           button {
-            font-size: 18px !important;
+            font-size: 16px !important;
           }
         }
       }

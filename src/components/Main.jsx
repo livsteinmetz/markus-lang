@@ -28,7 +28,7 @@ export default function Main() {
                 style={{ width: '100%', height: 'auto' }}
               /> */}
                     <section>
-          <h2 style={{fontSize: "45px", lineHeight: "45px"}}>Principal Bass,<br/>
+          <h2 className="subtitle">Principal Bass,<br/>
             <a href="https://www.gso.se/en/" target="_blank" rel="noopener noreferrer">Gothenburg Symphony Orchestra</a>
           </h2>
       </section>
